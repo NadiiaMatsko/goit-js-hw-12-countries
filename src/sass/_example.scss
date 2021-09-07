@@ -1,0 +1,45 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+body {
+  background: -moz-radial-gradient(black 2%, transparent 2%),
+    -moz-radial-gradient(black 2%, transparent 2%), white;
+  background: -webkit-radial-gradient(black 2%, transparent 2%),
+    -webkit-radial-gradient(black 2%, transparent 2%), white;
+  background-size: 40px 40px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+}
+
+input {
+  width: 50vw;
+  height: 10vh;
+  font-size: 5vh;
+}
+h1 {
+  text-align: center;
+}
+.info-left,
+.info-right {
+  width: 48vw;
+  align-self: center;
+}
+.info-right_img {
+  width: 40vw;
+}
+.info-right {
+  align-self: center;
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  align-items: start;
+}

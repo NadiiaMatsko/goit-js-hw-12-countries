@@ -1,0 +1,20 @@
+{{#each this}}
+<h1>{{name}}</h1>
+<div class="info">
+    <div class="info-left">
+    <h2>Capital:</h2>
+    <p>{{capital}}</p>
+    <h2>Population:</h2>
+    <p>{{population}}</p>
+    <h2>Languages:</h2>
+    <ul>
+        {{#each languages}}
+        <li>{{name}}</li>
+        {{/each}}
+    </ul>
+    </div>
+    <div class="info-right">
+        <img class="info-right_img" src={{flag}} alt={{name}} >
+    </div>
+</div>
+{{/each}}
